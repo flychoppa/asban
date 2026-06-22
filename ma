@@ -20,6 +20,7 @@ PORTS="${PORTS:-443}"
 
 # ASN для блокировки (хостинги, датацентры, даблпрокси)
 BLOCKED_ASNS=(
+    AS13335
     AS24940   # Hetzner
     AS51167   # Contabo
     AS16276   # OVH
